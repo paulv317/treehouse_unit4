@@ -1,0 +1,15 @@
+// buttons
+
+@mixin button-hov($bck) {
+    background-color: lighten($bck, 10%);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+// images
+
+@mixin image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

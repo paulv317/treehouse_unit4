@@ -1,0 +1,53 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  
+  .default {
+    background-color: $color-secondary;
+    transition: transform .5s ease-out;
+    &:hover {
+        @include button-hov($color-secondary);
+    }
+  }
+  
+  .error {
+    background-color: $color-error;
+    transition: transform .5s ease-out;
+    &:hover {
+        @include button-hov($color-error);
+    }
+  }
+  
+  .info {
+    background-color: $color-info;
+    transition: transform .5s ease-out;
+    &:hover {
+        @include button-hov($color-info);
+    }
+  }
+  
+  .success {
+    background-color: $color-success;
+    transition: transform .5s ease-out;
+    &:hover {
+        @include button-hov($color-success);
+    }
+  }
+  
+  .warning {
+    background-color: $color-warning;
+    transition: transform .5s ease-out;
+    &:hover {
+        @include button-hov($color-warning);
+    }
+  }

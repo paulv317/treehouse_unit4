@@ -1,9 +1,12 @@
 // buttons
 
 @mixin button-hov($bck) {
-    background-color: lighten($bck, 10%);
-    cursor: pointer;
-    transform: scale(1.05);
+    transition: transform .5s ease-out;
+    &:hover {
+        background-color: lighten($bck, 10%);
+        cursor: pointer;
+        transform: scale(1.05);
+    }
 }
 
 // images

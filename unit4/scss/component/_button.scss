@@ -14,40 +14,25 @@
   
   .default {
     background-color: $color-secondary;
-    transition: transform .5s ease-out;
-    &:hover {
-        @include button-hov($color-secondary);
-    }
+    @include button-hov($color-secondary);
   }
   
   .error {
     background-color: $color-error;
-    transition: transform .5s ease-out;
-    &:hover {
-        @include button-hov($color-error);
-    }
+    @include button-hov($color-error);
   }
   
   .info {
     background-color: $color-info;
-    transition: transform .5s ease-out;
-    &:hover {
-        @include button-hov($color-info);
-    }
+    @include button-hov($color-info);
   }
   
   .success {
     background-color: $color-success;
-    transition: transform .5s ease-out;
-    &:hover {
-        @include button-hov($color-success);
-    }
+    @include button-hov($color-success);
   }
   
   .warning {
     background-color: $color-warning;
-    transition: transform .5s ease-out;
-    &:hover {
-        @include button-hov($color-warning);
-    }
+    @include button-hov($color-warning);
   }
